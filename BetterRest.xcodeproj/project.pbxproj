@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F72550D728140D2D007DC892 /* SleepCalc 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F72550D628140D2D007DC892 /* SleepCalc 1.mlmodel */; };
+		F7B666F428134A45008044D7 /* CreateMLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B666F328134A45008044D7 /* CreateMLView.swift */; };
 		F7FDE9A32813041300E4D8D2 /* BetterRestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FDE9A22813041300E4D8D2 /* BetterRestApp.swift */; };
-		F7FDE9A52813041300E4D8D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FDE9A42813041300E4D8D2 /* ContentView.swift */; };
+		F7FDE9A52813041300E4D8D2 /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FDE9A42813041300E4D8D2 /* StepperView.swift */; };
 		F7FDE9A72813041500E4D8D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7FDE9A62813041500E4D8D2 /* Assets.xcassets */; };
 		F7FDE9AA2813041500E4D8D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7FDE9A92813041500E4D8D2 /* Preview Assets.xcassets */; };
+		F7FDE9B12813067700E4D8D2 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FDE9B02813067700E4D8D2 /* DatePickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F72550D628140D2D007DC892 /* SleepCalc 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "SleepCalc 1.mlmodel"; sourceTree = "<group>"; };
+		F7B666F328134A45008044D7 /* CreateMLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateMLView.swift; sourceTree = "<group>"; };
 		F7FDE99F2813041300E4D8D2 /* BetterRest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterRest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7FDE9A22813041300E4D8D2 /* BetterRestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRestApp.swift; sourceTree = "<group>"; };
-		F7FDE9A42813041300E4D8D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F7FDE9A42813041300E4D8D2 /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
 		F7FDE9A62813041500E4D8D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7FDE9A92813041500E4D8D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F7FDE9B02813067700E4D8D2 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				F7FDE9A22813041300E4D8D2 /* BetterRestApp.swift */,
-				F7FDE9A42813041300E4D8D2 /* ContentView.swift */,
+				F7FDE9A42813041300E4D8D2 /* StepperView.swift */,
+				F7FDE9B02813067700E4D8D2 /* DatePickerView.swift */,
+				F7B666F328134A45008044D7 /* CreateMLView.swift */,
+				F72550D628140D2D007DC892 /* SleepCalc 1.mlmodel */,
 				F7FDE9A62813041500E4D8D2 /* Assets.xcassets */,
 				F7FDE9A82813041500E4D8D2 /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7FDE9A52813041300E4D8D2 /* ContentView.swift in Sources */,
+				F72550D728140D2D007DC892 /* SleepCalc 1.mlmodel in Sources */,
+				F7FDE9A52813041300E4D8D2 /* StepperView.swift in Sources */,
+				F7B666F428134A45008044D7 /* CreateMLView.swift in Sources */,
 				F7FDE9A32813041300E4D8D2 /* BetterRestApp.swift in Sources */,
+				F7FDE9B12813067700E4D8D2 /* DatePickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
